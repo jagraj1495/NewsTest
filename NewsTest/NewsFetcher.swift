@@ -10,9 +10,6 @@ import UIKit.UIImage
 import Alamofire
 
 class NewsFetcher {
-    
-    
-    
     let apiKey = "" // TODO: Please set your key here
     let url = URL(string: "https://newsapi.org/v2/top-headlines")!
     
